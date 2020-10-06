@@ -40,3 +40,7 @@ html {
     color: #fe9b00;
     text-decoration: none;
     text-transform: uppercase; }
+
+#logo {
+  float: left;
+  width: 183px; }
