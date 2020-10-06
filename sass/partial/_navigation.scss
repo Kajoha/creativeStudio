@@ -1,0 +1,37 @@
+#navigation {
+    float: right;
+    width: 655px;
+    position: relative;   
+}
+
+#nav-email {
+    font-size: 13px;
+    color: #999898;
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#nav-list {
+    list-style: none;
+    margin: 45px 0 0 0;
+    padding: 0;
+
+    li {
+        float: left;
+        margin-left: 62px; 
+    }
+
+    li:first-child {
+        margin-left: 0;
+    }
+
+    a {
+        font-size: 12px;
+        font-weight: bold;
+        color: #fe9b00;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+}
