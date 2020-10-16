@@ -6,4 +6,10 @@ img {
     max-width: 100%;
     width: 100%; }
 }
+
+.box-img a, .box-img img {
+    display: block; }
+  
+.box-img + .box-img {
+    margin-left: 3.5%; }
   

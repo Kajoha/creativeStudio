@@ -1,6 +1,6 @@
 #navigation {
     float: right;
-    width: 655px;
+    width: 69%;
     position: relative;   
 }
 
@@ -20,12 +20,10 @@
 
     li {
         float: left;
-        margin-left: 62px; 
     }
 
-    li:first-child {
-        margin-left: 0;
-    }
+    li + li {
+        margin-left: 64px; }
 
     a {
         font-size: 12px;
@@ -35,3 +33,5 @@
         text-transform: uppercase;
     }
 }
+.nav-link-menu {
+    display: none; }

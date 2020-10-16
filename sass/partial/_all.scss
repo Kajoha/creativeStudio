@@ -10,32 +10,44 @@ body {
 .wrapper {
     width: 960px;
     margin: 0 auto;
+    padding: 0 10px;
+}
+
+.block-border {
+    padding: 20px 0 15px;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 h2 {
     font-size: 18px;
     padding-left: 30px;
-    background-position: 0 7px; }
+    background-position: 0 7px;
+}
   
 h3 {
     font-size: 12px;
     padding-left: 23px;
     background-size: 8px;
-    background-position: 0 5px; }
+    background-position: 0 5px;
+}
   
 h2, h3 {
     text-transform: uppercase;
     color: #090909;
     padding-bottom: 12px;
     background-image: url("../img/arrow.png");
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+}
   
 p {
     color: #5d5d5d;
     font-size: 12px;
-    line-height: 15px; }
-
-.block-border {
-    padding: 20px 0 15px;
-    border-bottom: 1px solid #c0c0c0;
+    line-height: 15px;
 }
+
