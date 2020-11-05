@@ -1,11 +1,15 @@
 #navigation {
     float: right;
     width: 69%;
-    position: relative;   
+    position: relative;  
+    
+    a {
+        font-size: $size-font-one;
+    }
 }
 
 #nav-email {
-    font-size: 13px;
+    font-size: 1.8125rem;
     color: #999898;
     text-decoration: none;
     position: absolute;
@@ -23,10 +27,11 @@
     }
 
     li + li {
-        margin-left: 64px; }
+        margin-left: 64px;
+    }
 
     a {
-        font-size: 12px;
+        font-size: $size-font-one;
         font-weight: bold;
         color: #fe9b00;
         text-decoration: none;
@@ -34,4 +39,5 @@
     }
 }
 .nav-link-menu {
-    display: none; }
+    display: none;
+}

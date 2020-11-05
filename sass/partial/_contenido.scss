@@ -1,7 +1,8 @@
 
 #slider img {
     max-width: 100%;
-    width: 100%; }
+    width: 100%;
+}
     
 
 .title-border-bottom {
@@ -10,12 +11,13 @@
 
 .link-arrow {
     color: #fe9b00;
-    font-size: 12px;
+    font-size: $size-font-one;
     font-weight: bold;
     padding-left: 23px;
     text-decoration: none;
     text-transform: uppercase;
-    position: relative; }
+    position: relative;
+}
   
 .link-arrow:hover {
     text-decoration: underline; }
@@ -35,7 +37,8 @@
         padding-left: 30px;
         background-image: url("../img/check.png");
         background-repeat: no-repeat;
-        background-position: top left; }
+        background-position: top left;
+    }
 }
     
 .box {
@@ -43,10 +46,12 @@
     float: left; }
       
 .box + .box {
-    margin-left: 6.25%; }
+    margin-left: 6.25%;
+}
       
 .box-link {
     color: #090909;
     font-style: italic;
-    font-size: 12px;
-    text-decoration: none; }
+    font-size: $size-font-one;
+    text-decoration: none;
+}

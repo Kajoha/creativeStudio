@@ -1,3 +1,6 @@
+
+$size-font-one: 0.75em;
+
 html {
     border-top: 17px solid black; 
 }
@@ -25,13 +28,13 @@ body {
 }
 
 h2 {
-    font-size: 18px;
+    font-size: 1.125rem;
     padding-left: 30px;
     background-position: 0 7px;
 }
   
 h3 {
-    font-size: 12px;
+    font-size: $size-font-one;
     padding-left: 23px;
     background-size: 8px;
     background-position: 0 5px;
@@ -47,7 +50,7 @@ h2, h3 {
   
 p {
     color: #5d5d5d;
-    font-size: 12px;
+    font-size: $size-font-one;
     line-height: 15px;
 }
 

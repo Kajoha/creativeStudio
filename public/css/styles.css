@@ -325,12 +325,12 @@ body {
   display: table; }
 
 h2 {
-  font-size: 18px;
+  font-size: 1.125rem;
   padding-left: 30px;
   background-position: 0 7px; }
 
 h3 {
-  font-size: 12px;
+  font-size: 0.75em;
   padding-left: 23px;
   background-size: 8px;
   background-position: 0 5px; }
@@ -344,16 +344,18 @@ h2, h3 {
 
 p {
   color: #5d5d5d;
-  font-size: 12px;
+  font-size: 0.75em;
   line-height: 15px; }
 
 #navigation {
   float: right;
   width: 69%;
   position: relative; }
+  #navigation a {
+    font-size: 0.75em; }
 
 #nav-email {
-  font-size: 13px;
+  font-size: 1.8125rem;
   color: #999898;
   text-decoration: none;
   position: absolute;
@@ -369,7 +371,7 @@ p {
   #nav-list li + li {
     margin-left: 64px; }
   #nav-list a {
-    font-size: 12px;
+    font-size: 0.75em;
     font-weight: bold;
     color: #fe9b00;
     text-decoration: none;
@@ -391,7 +393,7 @@ p {
 
 .link-arrow {
   color: #fe9b00;
-  font-size: 12px;
+  font-size: 0.75em;
   font-weight: bold;
   padding-left: 23px;
   text-decoration: none;
@@ -427,7 +429,7 @@ p {
 .box-link {
   color: #090909;
   font-style: italic;
-  font-size: 12px;
+  font-size: 0.75em;
   text-decoration: none; }
 
 .box-img {
@@ -436,9 +438,8 @@ p {
   .box-img img {
     max-width: 100%;
     width: 100%; }
-
-.box-img a, .box-img img {
-  display: block; }
+  .box-img a, .box-img .box-img img {
+    display: block; }
 
 .box-img + .box-img {
   margin-left: 3.5%; }
@@ -473,7 +474,7 @@ p {
     margin-left: 6px; }
   #footer-list a {
     color: #5d5d5d;
-    font-size: 12px; }
+    font-size: 0.75em; }
 
 .footer-logo {
   height: 64px;
